@@ -95,11 +95,6 @@ body
   margin: auto;
 }
 
-.textInfo
-{ margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .aboutPicture
 { box-sizing: border-box;
   background-color: green;
@@ -209,6 +204,19 @@ h2.middleInfo
 .stampStyle
 { width: 99px;
   height: 57px;
+}
+
+p.textInfo
+{ margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p.textMenu
+{
+}
+
+h3.textMenu
+{
 }
 
 .cloudBorder

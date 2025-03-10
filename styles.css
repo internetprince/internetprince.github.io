@@ -215,7 +215,7 @@ h2.middleInfo
 { box-sizing: border-box;
   width: 100%;
   background-color: transparent;
-  border: 5px solid white;
+  border: 8px solid white;
   margin: auto;
   border-image-repeat: round;
   border-image-slice: 8;

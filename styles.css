@@ -95,11 +95,9 @@ body
   margin: auto;
 }
 
-p.aboutInfo
-{ margin-top:0px;
+.textInfo
+{ margin-top: 0px;
   margin-bottom: 0px;
-
-  
 }
 
 .aboutPicture

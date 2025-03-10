@@ -218,7 +218,8 @@ p.textMenu
 }
 
 h3.textMenu
-{
+{ margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .cloudBorder

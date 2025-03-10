@@ -151,17 +151,6 @@ h2.middleInfo
   overflow: scroll;
 }
 
-.listNavigation
-{ list-style-type: navSymbol;
-  
-}
-
-@counter-style navSymbol
-{ system: cyclic;
-  symbols: "\2023" "\2023";
-  
-}
-
 .rightUpdate
 { box-sizing: border-box;
   text-align: center;

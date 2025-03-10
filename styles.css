@@ -226,7 +226,7 @@ h3.textMenu
   border: 8px solid white;
   margin: auto;
   border-image-repeat: round;
-  border-image-slice: 6;
+  border-image-slice: 10 9 10 9;
   border-image-width: 1;
   border-left-width: 8px;
   border-right-width: 8px;

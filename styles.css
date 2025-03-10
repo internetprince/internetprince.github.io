@@ -223,7 +223,7 @@ h3.textMenu
 { box-sizing: border-box;
   width: 100%;
   background-color: transparent;
-  border: 9px solid white;
+  border: 8px solid white;
   margin: auto;
   border-image-repeat: round;
   border-image-slice: 10;

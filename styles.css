@@ -223,15 +223,15 @@ h3.textMenu
 { box-sizing: border-box;
   width: 100%;
   background-color: transparent;
-  border: 8px solid white;
+  border: 9px solid white;
   margin: auto;
   border-image-repeat: round;
   border-image-slice: 8;
   border-image-width: 1;
-  border-left-width: 8px;
-  border-right-width: 8px;
-  border-top-width: 8px;
-  border-bottom-width:8px;
+  border-left-width: 9px;
+  border-right-width: 9px;
+  border-top-width: 9px;
+  border-bottom-width:9px;
   border-image-outset: 0;
   border-image-source: url("https://files.strawcdn.com/straw/GSopLeHoZTFcNUlbaWAp.png");
 }

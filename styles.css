@@ -157,7 +157,7 @@ h2.middleInfo
 .rightUpdate
 { box-sizing: border-box;
   text-align: center;
-  background-color: green;
+  background-color: #F4F7FF;
   border: 2px dotted red;
   overflow: scroll;
 }
@@ -165,7 +165,7 @@ h2.middleInfo
 .rightToDo
 { box-sizing: border-box;
   text-align: center;
-  background-color: blue;
+  background-color: #F4F7FF;
   border: 2px dotted yellow;
   overflow: scroll;
 }

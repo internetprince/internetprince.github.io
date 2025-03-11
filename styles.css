@@ -146,7 +146,7 @@ h2.middleInfo
 
 .rightNavigation
 { box-sizing: border-box;
-  background-color: F4F7FF;
+  background-color: #F4F7FF;
   border: 2px dotted olive;
   overflow: scroll;
 }
@@ -209,6 +209,7 @@ p.textMenu
 h3.textMenu
 { margin-top: 0px;
   margin-bottom: 0px;
+  background-color: #F4F7FF;
 }
 
 .cloudBorder

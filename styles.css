@@ -181,6 +181,7 @@ h2.middleInfo
   flex-flow: row wrap;
   border: 1px dotted white;
   max-width:100%;
+  border-radius: 3px;
 }
 
 .containStampStyle
@@ -188,6 +189,7 @@ h2.middleInfo
   background-color: fuchsia;
   flex-direction: row;
   border: 1px dotted black;
+  border-radius: 3px;
 }
 
 .buttonStyle

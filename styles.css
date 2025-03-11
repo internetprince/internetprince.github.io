@@ -147,7 +147,6 @@ h2.middleInfo
 .rightNavigation
 { box-sizing: border-box;
   background-color: #F4F7FF;
-  border: 2px dotted olive;
   overflow: scroll;
 }
 

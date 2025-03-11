@@ -143,45 +143,9 @@ h2.middleInfo
   overflow: scroll;
 }
 
-.containButtonStyle
-{ box-sizing: border-box;
-  background-color: fuchsia;
-  flex-flow: row wrap;
-  border: 1px dotted white;
-  max-width:100%;
-}
-
-.containStampStyle
-{ box-sizing: border-box;
-  background-color: fuchsia;
-  flex-direction: row;
-  border: 1px dotted black;
-}
-
-.buttonStyle
-{
-  width: 88px;
-  height: 31px;
-}
-
-.stampStyle
-{ width: 99px;
-  height: 57px;
-}
-
-p.textInfo
+h2.blogEntry
 { margin-top: 0px;
   margin-bottom: 0px;
-}
-
-p.textMenu
-{
-}
-
-h3.textMenu
-{ margin-top: 0px;
-  margin-bottom: 0px;
-  border-bottom: 2px solid #74828c;
   background-color: #F4F7FF;
 }
 

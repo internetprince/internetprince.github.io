@@ -149,6 +149,15 @@ h2.blogEntry
   background-color: #F4F7FF;
 }
 
+.entryHeading
+{ box-sizing: border-box;
+  width: 100%
+}
+
+.entryDetails
+{ box-sizing: border-box;
+}
+
 .cloudBorder
 { box-sizing: border-box;
   width: 100%;

@@ -125,7 +125,7 @@ body
 
 .middleInfo
 { box-sizing: border-box;
-  background-color: darkblue;
+  background-color: #F4F7FF;
   text-align: center;
   margin: auto;
   flex: 1 1 0;

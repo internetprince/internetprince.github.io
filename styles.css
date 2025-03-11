@@ -209,6 +209,7 @@ p.textMenu
 h3.textMenu
 { margin-top: 0px;
   margin-bottom: 0px;
+  border-bottom: 2px solid #6F8AB7;
   background-color: #F4F7FF;
 }
 

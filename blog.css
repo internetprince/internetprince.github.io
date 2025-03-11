@@ -78,9 +78,6 @@ body
   background-color: transparent;
   color: #485158;
   margin: auto;
-  flex: 1 1 0;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
   }
@@ -99,19 +96,6 @@ body
   background-color: #F4F7FF;
   text-align: center;
   margin: auto;
-}
-
-.aboutPicture
-{ box-sizing: border-box;
-  background-color: green;
-  margin: auto;
-  width: 125px;
-  height: 125px;
-}
-
-.featuredBox
-{ box-sizing: border-box;
-  background-color: gray;
 }
 
 .middleContent
@@ -137,17 +121,6 @@ h2.middleInfo
 {
 }
 
-.rightContent
-{ box-sizing: border-box;
-  background-color: transparent;
-  color: #485158;
-  text-align: center;
-  margin: auto;
-  display: flex;
-  flex: 1 1 0;
-  flex-direction: column;
-}
-
 .rightNavigation
 { box-sizing: border-box;
   background-color: #F4F7FF;
@@ -168,10 +141,6 @@ h2.middleInfo
   background-color: blue;
   border: 2px dotted yellow;
   overflow: scroll;
-}
-
-.chatbox
-{ background-color: teal;
 }
 
 .containButtonStyle

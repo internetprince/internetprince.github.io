@@ -67,9 +67,9 @@ body
   width: 900px;
   text-align: center;
   position: static;
-  flex-direction: row;
+  flex-direction: column;
   background-color: transparent;
-  column-gap: 8px;
+  row-gap: 8px;
   border: 2px dotted black;
 }
 

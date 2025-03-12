@@ -101,12 +101,31 @@ body
   flex-direction: row;
 }
 
+.middleLeftContent
+{ box-sizing: border-box;
+  background-color: transparent;
+  color: #485158;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex: 2 1 0;
+}
+
+.middleRightContent
+{ box-sizing: border-box;
+  background-color: transparent;
+  color: #485158;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex: 3 1 0;
+}
+
 .middleBox
 { box-sizing: border-box;
   background-color: #F4F7FF;
   text-align: center;
   margin: auto;
-  flex: 1 1 0;
 }
 
 h2.middleInfo

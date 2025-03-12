@@ -127,9 +127,11 @@ body
 
 .generalPanel
 { box-sizing: border-box;
-  background-color: #F4F7FF;
-  text-align: center;
   margin: auto;
+  text-align: center;
+  padding: 5px;
+  background-color: #F4F7FF;
+  width: 100%;
 }
 
 h2.middleInfo

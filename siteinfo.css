@@ -98,6 +98,7 @@ body
   text-align: center;
   margin: auto;
   display: flex;
+  flex-direction: row;
 }
 
 .middleBox
@@ -105,6 +106,7 @@ body
   background-color: #F4F7FF;
   text-align: center;
   margin: auto;
+  flex: 1 1 0;
 }
 
 h2.middleInfo

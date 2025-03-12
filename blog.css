@@ -73,13 +73,15 @@ body
   border: 2px dotted black;
 }
 
-.leftContent
+.blogContent
 { box-sizing: border-box;
   background-color: transparent;
   color: #485158;
   margin: auto;
   justify-content: center;
   text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
   }
 
 .aboutBox

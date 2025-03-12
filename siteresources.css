@@ -73,7 +73,7 @@ body
   border: 2px dotted black;
 }
 
-.topContent
+.mainContent
 { box-sizing: border-box;
   background-color: transparent;
   color: #485158;
@@ -82,7 +82,7 @@ body
   text-align: center;
   }
 
-.topBox
+.mainBox
 { box-sizing: border-box;
   margin: auto;
   text-align: center;
@@ -90,27 +90,6 @@ body
   background-color: #F4F7FF;
   width: 100%;
 }
-
-.middleContent
-{ box-sizing: border-box;
-  background-color: transparent;
-  color: #485158;
-  text-align: center;
-  margin: auto;
-  display: flex;
-}
-
-.middleBox
-{ box-sizing: border-box;
-  background-color: #F4F7FF;
-  text-align: center;
-  margin: auto;
-}
-
-h2.middleInfo
-{
-}
-
 
 .bottomContent
 { box-sizing: border-box;

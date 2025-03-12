@@ -208,6 +208,11 @@ p.textInfo
   margin-bottom: 0px;
 }
 
+h3.textInfo
+{ margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 p.textMenu
 {
 }

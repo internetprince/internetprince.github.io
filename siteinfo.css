@@ -82,20 +82,13 @@ body
   text-align: center;
   }
 
-.aboutBox
+.topBox
 { box-sizing: border-box;
   margin: auto;
   text-align: center;
   padding: 5px;
   background-color: #F4F7FF;
   width: 100%;
-}
-
-.aboutInfo 
-{ box-sizing: border-box;
-  background-color: #F4F7FF;
-  text-align: center;
-  margin: auto;
 }
 
 .middleContent
@@ -105,23 +98,30 @@ body
   text-align: center;
   margin: auto;
   display: flex;
-  flex: 2 1 0;
-  flex-direction: column;
 }
 
-.middleInfo
+.middleBox
 { box-sizing: border-box;
   background-color: #F4F7FF;
   text-align: center;
   margin: auto;
-  flex: 1 1 0;
 }
 
 h2.middleInfo
 {
 }
 
-.rightNavigation
+
+.bottomContent
+{ box-sizing: border-box;
+  background-color: transparent;
+  color: #485158;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.bottomBox
 { box-sizing: border-box;
   background-color: #F4F7FF;
   overflow: scroll;

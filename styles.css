@@ -188,6 +188,8 @@ h2.middleInfo
 .containStampStyle
 { box-sizing: border-box;
   background-color: fuchsia;
+  background-image: url("https://files.strawcdn.com/straw/ORnymnhxeioNNTqrpmLS.png");
+  background-size: cover;
   flex-direction: row;
   border: 1px dotted black;
   border-radius: 3px;

@@ -1,0 +1,176 @@
+/* colour refs
+#99CCFF (sky blue)
+#eff7fa (white blue)
+#eff3f8 (white steel blue)
+#F4F7FF (cloud box white)
+#6F8AB7 (medium blue gray)
+#33415C (med blue gray)
+#30638E (medium blue)
+#82929e (light blue gray)
+#74828c (light medium blue gray)
+
+*/
+
+/* img links
+bg cloud https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif
+bg http://theinspirationgallery.com/wallpaper/damask/images/wp_damask_187.gif
+banner https://files.strawcdn.com/straw/uMGvoTFQyevBPCbdCHxm.jpg
+art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
+(cloud border) https://files.strawcdn.com/straw/GSopLeHoZTFcNUlbaWAp.png
+*/
+
+/* buttons
+(powered by testosterone) https://files.strawcdn.com/straw/zFlEUqEUtgAFAKJkpNNZ.gif
+(made with affection) https://files.strawcdn.com/straw/UKBzIjMANNvdVlZWLrLl.gif
+(proud of my son) https://files.strawcdn.com/straw/FmPyRzsluFUbLtKvkxwA.gif
+
+*/
+ 
+/* style */
+
+html
+{ background-image: url("https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif");
+  background-repeat: repeat, repeat;
+  background-color: #99CCFF;
+  color: white;
+  font-size: 1em;
+  font-family: "courier new", Monospace;
+}
+
+body 
+{ color: white;
+  font-size: 1em;
+  font-family: "courier new", Monospace;
+  margin: 0;
+}
+
+.bannerStyle
+{ background-image: url("https://files.strawcdn.com/straw/uMGvoTFQyevBPCbdCHxm.jpg");
+  background-size: cover;
+  background-color: navy;
+  background-clip: content-box;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  position: static;
+  width: 900px;
+  height: 175px;
+  text-align: center;
+}
+
+.content
+{ box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  width: 900px;
+  text-align: center;
+  position: static;
+  flex-direction: column;
+  background-color: transparent;
+  row-gap: 8px;
+  border: 2px dotted black;
+}
+
+.topContent
+{ box-sizing: border-box;
+  background-color: transparent;
+  color: #485158;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  }
+
+.topBox
+{ box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  background-color: #F4F7FF;
+  width: 100%;
+}
+
+.middleContent
+{ box-sizing: border-box;
+  background-color: transparent;
+  color: #485158;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.middleBox
+{ box-sizing: border-box;
+  background-color: #F4F7FF;
+  text-align: center;
+  margin: auto;
+}
+
+h2.middleInfo
+{
+}
+
+
+.bottomContent
+{ box-sizing: border-box;
+  background-color: transparent;
+  color: #485158;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.bottomBox
+{ box-sizing: border-box;
+  background-color: #F4F7FF;
+  overflow: scroll;
+}
+
+.rightUpdate
+{ box-sizing: border-box;
+  text-align: center;
+  background-color: green;
+  border: 2px dotted red;
+  overflow: scroll;
+}
+
+.rightToDo
+{ box-sizing: border-box;
+  text-align: center;
+  background-color: blue;
+  border: 2px dotted yellow;
+  overflow: scroll;
+}
+
+h2.blogEntry
+{ margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #F4F7FF;
+}
+
+.entryHeading
+{ box-sizing: border-box;
+  width: 100%
+}
+
+.entryDetails
+{ box-sizing: border-box;
+}
+
+.cloudBorder
+{ box-sizing: border-box;
+  width: 100%;
+  background-color: transparent;
+  border: 8px solid white;
+  margin: auto;
+  border-image-repeat: round;
+  border-image-slice: 10 9 10 9;
+  border-image-width: 1;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-top-width: 8px;
+  border-bottom-width:8px;
+  border-image-outset: 0;
+  border-image-source: url("https://files.strawcdn.com/straw/GSopLeHoZTFcNUlbaWAp.png");
+}

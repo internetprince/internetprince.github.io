@@ -125,7 +125,7 @@ body
   flex-direction: column;
 }
 
-.middleInfo
+.generalPanel
 { box-sizing: border-box;
   background-color: #F4F7FF;
   text-align: center;

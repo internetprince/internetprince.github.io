@@ -1,0 +1,173 @@
+@media (orientation: landscape) {
+  .mainGrid {
+    max-width: 100vw;
+    padding-left: 3px;
+    padding-right: 3px;
+    grid-template-areas:
+    "self self status"
+    "intro intro status"
+    "extra extra extra";
+    grid-template-rows: 1fr 1fr min-content;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #extracontent {
+    max-width: 100%;
+    grid-template-areas:
+    "interact";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #buttons {
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  max-height: 100px;
+  overflow: scroll;
+  }
+
+}
+ 
+
+
+@media (orientation: portrait) {
+  .mainGrid {
+    max-width: 100vw;
+    padding-left: 3px;
+    padding-right: 3px;
+    grid-template-areas:
+    "self intro intro"
+    "status intro intro"
+    "extra extra extra";
+    grid-template-rows: 1fr min-content min-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #extracontent {
+    max-width: 100%;
+    grid-template-areas:
+    "interact interact"
+    ". bookmark";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #buttons {
+    max-height: 30vh;
+    overflow: scroll;
+  }
+
+  #tallImage {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+@font-face {
+  font-family: "Almendra";
+  font-style: normal;
+  font-weight: normal;
+  src:
+  url("https://file.garden/Z9NesCn881IguicE/Almendra-Regular.otf") format("opentype");
+}
+
+h3 {
+  font-family: "Ava", sans-serif;
+}
+
+.mainGrid { 
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  max-width: 100vw;
+  background-color: transparent;
+}
+
+#selfContainer { 
+  box-sizing: border-box;
+  color: #485158;
+  grid-area: self;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#selfText {
+  box-sizing: border-box;
+  margin: 0;
+  color: #7BBCED;
+  font-family:"Almendra", serif;
+  font-size: .75rem;
+}
+
+#buttons {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#info {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#interests {
+  
+}
+
+#introContainer { 
+  box-sizing: border-box;
+  color: #485158;
+  grid-area: intro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+#statusContainer { 
+  box-sizing: border-box;
+  color: #485158;
+  grid-area: status;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#extracontent {
+  box-sizing: border-box;
+  grid-area: extra;
+  display: grid;
+  max-width: 100%;
+}
+
+#interactionContainer { 
+  box-sizing: border-box;
+  color: #485158;
+  grid-area: interact;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#bookmarksContainer {
+  box-sizing: border-box;
+  grid-area: bookmark;
+  align-items: center;
+  text-align: center;
+}

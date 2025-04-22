@@ -1,43 +1,6 @@
-/* colour refs
-#99CCFF (sky blue)
-#eff7fa (white blue)
-#eff3f8 (white steel blue)
-#F4F7FF (cloud box white)
-#6F8AB7 (medium blue gray)
-#33415C (med blue gray)
-#30638E (medium blue)
-#82929e (light blue gray)
-#74828c (light medium blue gray)
-
-*/
-
-/* img links
-bg cloud https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif
-bg http://theinspirationgallery.com/wallpaper/damask/images/wp_damask_187.gif
-banner https://files.strawcdn.com/straw/uMGvoTFQyevBPCbdCHxm.jpg
-art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
-(cloud border) https://files.strawcdn.com/straw/GSopLeHoZTFcNUlbaWAp.png
-(metal wave) https://files.strawcdn.com/straw/ORnymnhxeioNNTqrpmLS.png
-(bg) https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif
-*/
-
-
-/* buttons
-(powered by testosterone) https://files.strawcdn.com/straw/zFlEUqEUtgAFAKJkpNNZ.gif
-(made with affection) https://files.strawcdn.com/straw/UKBzIjMANNvdVlZWLrLl.gif
-(proud of my son) https://files.strawcdn.com/straw/FmPyRzsluFUbLtKvkxwA.gif
-(jesus kissed men) https://files.strawcdn.com/straw/FVuSBkGUQDXZTRZdPXck.png
-(i dream in html) https://files.strawcdn.com/straw/MQLwYceTzbZeutnQTNAI.gif
-
-
-my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
-*/
-
-/* style */
-
 html { 
-  background-color: #284E72;
-  color: white;
+  background-color: #89CFF0;
+  color: #485158;
   font-size: 1em;
   font-family: "F1.8", monospace;
 }
@@ -54,75 +17,19 @@ h2 {
   font-size: 1.1rem;
 }
 
-.cloudContainer { 
-  box-sizing: border-box;
-  border-image-slice: 9.5 fill;
-  border-image-width: 10px;
-  border-image-outset: 1px;
+h3 {
+  font-family: "Syntha Nova", sans-serif;
+  margin: 0;
+  font-size: .9rem;
+}
+
+
+.cloudContainer
+{ box-sizing: border-box;
+  border-image-slice: 18 fill;
+  border-image-width: 15px;
   border-image-repeat: round;
-  border-image-source: url("https://files.strawcdn.com/straw/kjDHZMgeLBJZmkQswyiy.png");
-  border-style: solid;
-  border-top-width: 8px;
-  border-left-width: 8px;
-  border-right-width: 8px;
-  border-bottom-width: 8px;
-  padding: 5px;
-}
-
-.cloudTest {
-  
-}
-
-.metalContainer {
-  box-sizing: border-box;
-  border-image-slice: 35 35 35 35 fill;
-  border-image-width: 10px 10px 10px 10px;
-  border-image-outset: 0px;
-  border-image-repeat: stretch stretch;
-  border-image-source: url("https://file.garden/Z9NesCn881IguicE/metaltest.png");
-}
-
-.testContainer {
-  box-sizing: border-box;
-  border-image-slice: 50 50 50 50 fill;
-  border-image-width: 10px 10px 10px 10px;
-  border-image-outset: 0px;
-  border-image-repeat: stretch stretch;
-  border-image-source: url("https://file.garden/Z9NesCn881IguicE/metaltest2.png");
-}
-
-.testContainerTwo {
-  box-sizing: border-box;
-  border-image-slice: 30 30 30 30 fill;
-  border-image-width: 7px 7px 7px 7px;
-  border-image-outset: 0px;
-  border-image-repeat: stretch stretch;
-  border-image-source: url("https://file.garden/Z9NesCn881IguicE/metaltest3.png");
-  padding: 3px;
-}
-
-.testBorderOne {
-  box-sizing: border-box;
-  background-image: url("https://file.garden/Z9NesCn881IguicE/testborder1.jpeg");
-  background-size: 50px 26px;
-  width: 50px;
-  height: 26px;
-  position: absolute;
-  top: -23px;
-}
-
-.buttonStyle {
-  width: 88px;
-  height: 31px;
-  background-color: white;
-}
-
-.stampStyle { 
-  width: 99px;
-  height: 56px;
-}
-
-.textArt {
-  font-size: 2px;
-
+  border-image-source: url("https://files.strawcdn.com/straw/KPmeCZfeBWcbnjBEXDSv.png");
+  border-width: 8px;
+  padding: 7px;
 }

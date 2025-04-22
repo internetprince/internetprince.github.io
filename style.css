@@ -1,94 +1,90 @@
 @media (orientation: landscape) {
-  .contentFormat {
-    
+  .mainContainer {
   }
-    
-  /* positioning */
+  
+  
+  #profileImage {
+  }
 
 }
  
 
 
 @media (orientation: portrait) {
-  .contentFormat {
-    
+  .mainContainer {
   }
   
-  /* positioning */
+  #profileImage {
+    width: 75%;
+  }
   
-  #siteBanner {
-    margin-top: 10px;
-    max-width: 100vw;
-    min-width: 100vw;
-    max-height: 12vh;
-    min-height: 12vh;
+  #personalContainer, #navigationContainer {
+    max-width: calc(45% - 1rem);
+    min-width: calc(45% - 1rem);
+    margin: .5rem;
     float: left;
+    overflow: auto;
   }
   
   #personalContainer {
-    margin-top: 10px;
-    margin-left: 14px;
-    max-width: calc(40% - 14px);
-    min-width: calc(40% - 14px);
-    max-height: 8rem;
-    min-height: 8rem;
-    float: left;
+    max-height: 25vh;
+    min-height: 25vh;
   }
   
   #navigationContainer {
-    margin-top: 10px;
-    margin-left: 14px;
-    clear: left;
-    float: left;
-    max-width: calc(40% - 14px);
-    min-width: calc(40% - 14px);
-    max-height: 6rem;
-    min-height: 6rem;
-    overflow-y: scroll;
+    max-height: 15vh;
+    min-height: 15vh;
+    overflow: auto;
   }
   
   #welcomeContainer {
-    margin-top: 10px;
-    margin-left: 14px;
-    margin-right: 14px;
-    max-width: calc(60% - 28px);
-    min-width: calc(60% - 28px);
-    max-height: 20rem;
-    min-height: 20rem;
+    max-width: calc(55% - 1rem);
+    min-width: calc(55% - 1rem);
+    max-height: calc(40vh + 1rem);
+    min-height: calc(40vh + 1rem);
+    margin: .5rem;
     float: right;
+    overflow: auto;
   }
   
-  #siteHostContainer {
-    margin-top: 10px;
-    margin-left: 14px;
-    margin-right: 14px;
-    max-width: calc(100% - 28px);
-    min-width: calc(100% - 28px);
-    clear: right;
-    float: right;
+  #hostContainer {
+    max-width: calc(100% - 2rem);
+    min-width: calc(100% - 2rem);
+    max-height: 6em;
+    min-height: 6em;
+    margin: .5rem 1rem;
+    float: left;
+    clear: both;
   }
   
-  #siteHistoryContainer {
-    margin-top: 10px;
-    margin-right: 14px;
-    clear: right;
-    float: right;
-    max-width: calc(50% - 14px);
-    min-width: calc(50% - 14px);
+  #chatContainer {
+  max-width: calc(50% - 1rem);
+  min-width: calc(50% - 1rem);
+  min-height: 15rem;
+  max-height: 15rem;
+  margin: .5rem;
+  float: left;
   }
   
-  #graphicContainer {
-    top: calc(12vh + 10px + 8rem + 10px + 6rem + 10px + 10px);
-    left: 14px;
-    max-width: calc(40% - 14px);
-    min-width: calc(40% - 14px);
-    max-height: calc(20rem - 14rem - 20px);
-    min-height: calc(20rem - 14rem - 20px);
+  #historyContainer {
+  max-width: calc(50% - 1rem);
+  min-width: calc(50% - 1rem);
+  min-height: 15rem;
+  max-height: 15rem;
+  margin: .5rem;
+  float: right;
   }
-
+  
+  #friendsContainer {
+  max-width: calc(35% - 1rem);
+  min-width: calc(35% - 1rem);
+  min-height: 10rem;
+  max-height: 10rem;
+  margin: .5rem;
+  float: left;
+  }
+  
 }
-
-/* DEFAULT */
 
 p {
   font-family: "F1.8", sans-serif;
@@ -105,189 +101,86 @@ h3 {
   text-align: center;
 }
 
-.contentFormat { 
+.mainContainer { 
   box-sizing: border-box;
-  display: flow-root;
+  position: relative;
+  display: block;
   width: 100%;
+  height: 100%;
   max-width: 100vw;
   background-color: transparent;
-  position: static;
 }
 
-#siteBanner { 
-  background-size: cover;
-  background-image: url("");
-  background-color: navy;
-  box-sizing: border-box;
-  font-family: "Ava", serif;
-  text-align: center;
-}
+
 
 #personalContainer { 
-  color: #485158;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
-  position: relative;
 }
 
-#personalTitle {
-  margin: 0;
-}
+
 
 #profileImage { 
   aspect-ratio: 1/1;
-  width: 40%;
   box-sizing: border-box;
 }
 
 #navigationContainer { 
-  color: #485158;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
-  position: relative;
 }
 
 #navigationContainer details {
   text-align: left;
   font-family: "Tecnica 55", monospace;
-  
 }
   
-#welcomeContainer { 
-  color: #485158;
-  display: flex;
+#hostContainer {
   box-sizing: border-box;
-  flex-direction: column;
-  align-items: center;
+  align-content: center;
+}
+
+#hostContainer * {
+  margin: auto;
   text-align: center;
-  position: relative;
 }
-
-#siteInfoContainer {
-  
-  
-}
-
-#siteHistoryContainer {
-  box-sizing: border-box;
-  position: relative;
-}
-
-#siteHistorySection {
-  box-sizing: border-box;
-  max-height: 10em;
-  max-width: 100%;
-}
-
-.siteHistoryEntry {
-  color: #485158;
-  box-sizing: border-box;
-  width: 100%;
-}
-
-.siteHistoryEntry time {
-  font-size: xx-small;
-  margin-top: 0;
-  margin-left: 0;
-  font-family: "Nuklear", monospace;
-}
-
-.siteHistoryEntry p {
-  font-size: small;
-}
-
-#siteHostContainer {
-  color: #485158;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  position: relative;
-}
-
-#graphicContainer {
-  box-sizing: border-box;
-  position: absolute;
-  background-size: cover;
-  background-color: yellow;
-}
-
 
 #githubImage {
   box-sizing: border-box;
   aspect-ratio: 1/1;
-  width: 2em;
-  max-width: 48px;
+  width: 48px;
+  display: block;
+}
+  
+#welcomeContainer {
+  box-sizing: border-box;
+  text-align: center;
 }
 
-/* MISC */
+#welcomeContainer p {
+  margin-top: .75em;
+  margin-bottom: .75em;
+}
 
-.stampStyle {
+#chatContainer {
+  box-sizing: border-box;
+}
+
+#cbox {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+
+#historyContainer {
+  box-sizing: border-box;
+}
+
+#friendsContainer {
+  box-sizing: border-box;
 }
 
 #bio {
   margin: 0;
-}
-
-#todoContainer { 
-  box-sizing: border-box;
-  color: #485158;
-  grid-area: todo;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-
-/* main */ 
-
-.testBorderTwo {
-  box-sizing: border-box;
-  background-image: url("https://file.garden/Z9NesCn881IguicE/testborder4.jpeg");
-  background-size: contain;
-  background-repeat: repeat-x;
-  width: 100%;
-  height: 14px;
-  position: absolute;
-  top: -12px;
-}
-
-.columnDividerOne {
-  box-sizing: border-box;
-  background-size: contain;
-  background-repeat: repeat-y;
-  height: calc(100% - 4px);
-  width: 14px;
-  position: absolute;
-  left: -12px;
-}
-
-.rowDividerOne {
-  box-sizing: border-box;
-  background-image: url("https://file.garden/Z9NesCn881IguicE/frametest14.png");
-  background-repeat: repeat-x;
-  height: 14px;
-  position: absolute;
-}
-
-:nth-child(4n of .columnDividerOne)
-{
-}
-
-/* finalize */
-
-.cornerFrame {
-  box-sizing: border-box;
-  background-size: contain;
-  height: 14px;
-  width: 14px;
-  position: absolute;
 }

@@ -173,4 +173,6 @@ h3 {
 
 #footerContainer {
   box-sizing: border-box;
+  max-width: 90vw;
+  width: 90vw;
 }

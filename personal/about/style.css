@@ -171,3 +171,7 @@ h3 {
   align-items: center;
   text-align: center;
 }
+
+.footerContainer {
+  box-sizing: border-box;
+}

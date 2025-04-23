@@ -235,13 +235,13 @@ h3 {
 
 #cbox {
   box-sizing: border-box;
-  width: 100%;
-  height: 100%;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
   border: 0px;
   margin: 0px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 8px;
+  left: 8px;
 }
 
 #historyContainer {

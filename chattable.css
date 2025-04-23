@@ -1,1 +1,286 @@
+
+body {
+    background-color: #EEB;
+}
  
+.allMessages {
+    display: inline-block;
+    background: #F0F0A3;
+    border: 1px solid rgb(208, 208, 191);
+    font-family: courier, times;
+    font-size: 10pt;
+    border-radius: 0 3px 3px 3px;
+    margin: 5px;
+    line-height: 12pt;
+    position: relative;
+    color: #222;
+    width: auto;
+    padding: 10px;
+}
+ 
+.allMessages.pm {
+    padding-top: 26px;
+}
+ 
+.allMessages.pm:before {
+    content: "[Classified]";
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 16px;
+    padding: 5px;
+    width: calc(100% - 10px);
+    line-height: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 10pt;
+    font-weight: bolder;
+    opacity: 0.5;
+    color: #F00;
+}
+ 
+br {
+    height: 6pt;
+}
+ 
+h1 {
+    margin: auto;
+}
+ 
+.allMessages:hover:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    background-color: rgba(0, 0, 0, 0.05);
+    pointer-events: none;
+}
+ 
+#background {
+    scrollbar-color: #CCC transparent;
+    scrollbar-width: thin;
+}
+ 
+.msgBody {
+    cursor: text;
+}
+ 
+#input {
+    color: #333;
+    background-color: #F0F0A3;
+    border: none;
+    font-family: courier, times;
+    font-size: 10pt;
+    padding: 5px;
+    width: calc(100% - 10px);
+    border-radius: 0;
+    margin: 0;
+    border-top: solid 1px #AA7;
+}
+ 
+#input::placeholder {
+    font-family: courier, times;
+}
+ 
+#input:empty::before {
+    content: "Send note [ENTER]";
+}
+ 
+#input:focus {
+    outline: dotted 1px #000;
+}
+ 
+a {
+    font-family: inherit;
+}
+ 
+#timestamp {
+    color: #555;
+    font-size: 10pt;
+}
+ 
+.senderInfo {
+    text-decoration: underline;
+    text-decoration-color: #000;
+    font-family: courier, times;
+    font-style: italic;
+}
+ 
+.senderInfo * {
+    display: inline-block;
+    text-decoration: none;
+}
+ 
+.badge {
+    display: none;
+}
+ 
+.senderInfo:has(.owner),
+.senderInfo:has(.mod) {
+    font-weight: bold;
+    text-decoration-color: #FF0000;
+    text-decoration-style: wavy;
+}
+ 
+.senderInfo:has(.beta) {
+    font-weight: bold;
+    text-decoration-color: #0000FF;
+}
+ 
+.senderInfo:after {
+    display: inline-block;
+    content: " wrote,";
+    font-family: Verdana;
+    font-style: italic;
+    opacity: 0.75;
+    color: #111;
+    margin-left: 0.5em;
+    text-decoration: none !important;
+}
+ 
+#top_banner {
+    display: none;
+}
+ 
+#settings {
+    filter: invert(50%);
+    opacity: 0.75;
+}
+ 
+#settings:hover {
+    filter: invert(10%);
+}
+ 
+#textInput {
+    background-color: #EAE9D1;
+}
+ 
+blockquote {
+    font-style: italic;
+}
+ 
+#loadMore {
+    font-family: Verdana;
+}
+ 
+.pinned {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-radius: 5px;
+    max-height: 15vh;
+    overflow: hidden;
+    cursor: default;
+}
+ 
+.pinned:hover {
+    max-height: none;
+    height: auto;
+    box-shadow: 0px 2px 5px #000;
+    background-color: #EEB;
+}
+ 
+.pinned::before {
+    content: "\23F7";
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    height: 15vh;
+    max-height: 15vh;
+    animation: 500ms linear infinite alternate hovering;
+}
+ 
+.pinned:hover::before {
+    display: none;
+}
+ 
+.pinned>.allMessages::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(transparent, transparent, #333);
+    opacity: 0.75
+}
+ 
+.pinned>.allMessages:hover::before {
+    display: none;
+}
+ 
+.pinned:after {
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    content: "📌";
+}
+ 
+#emojiTray {
+    background-color: #F0F0A3;
+    border-color: rgb(208, 208, 191);
+}
+ 
+#settingsMenu {
+    font-family: courier, times;
+    color: #111;
+}
+ 
+#settingsMenu hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(208, 208, 191);
+}
+ 
+#settingsMenu input[type=text] {
+    border: none;
+    background-color: #F0F0A3;
+    font-family: courier, times;
+    color: #111;
+    border-bottom: solid 1px rgb(208, 208, 191);
+}
+ 
+#save {
+    background-color: #F0F0A3;
+    font-family: courier, times;
+    color: #111;
+    border: solid 1px rgb(208, 208, 191);
+}
+ 
+#is_typing {
+    background-color: transparent;
+    border: none;
+    border-radius: 1px;
+    position: absolute;
+    right: 7px;
+    bottom: 27px;
+    overflow: visible;
+    width: auto;
+    justify-content: flex-end;
+}
+ 
+#is_typing:before {
+    color: #222;
+    content: "Someone is typing";
+    font-size: 8pt;
+    background-color: transparent;
+}
+ 
+#is_typing>span {
+    height: 2px;
+    width: 2px;
+    borer-radius: 0;
+    background-color: #222;

@@ -124,8 +124,8 @@
   }
   
   #chatContainer {
-  max-width: calc(50% - 1rem);
-  min-width: calc(50% - 1rem);
+  max-width: calc(70% - 1rem);
+  min-width: calc(70% - 1rem);
   min-height: 15rem;
   max-height: 15rem;
   margin: .5rem;
@@ -133,8 +133,8 @@
   }
   
   #historyContainer {
-  max-width: calc(50% - 1rem);
-  min-width: calc(50% - 1rem);
+  max-width: calc(30% - 1rem);
+  min-width: calc(30% - 1rem);
   min-height: 15rem;
   max-height: 15rem;
   margin: .5rem;

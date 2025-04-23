@@ -236,11 +236,11 @@ h3 {
 #cbox {
   box-sizing: border-box;
   width: calc(100% - 36px);
-  height: calc(100% - 36px);
+  height: calc(100% - 36px - 1em);
   border: 0px;
   margin: 0px;
   position: absolute;
-  top: 18px;
+  top: calc(18px + 1em);
   left: 18px;
 }
 

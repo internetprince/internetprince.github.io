@@ -284,4 +284,5 @@ h3 {
 #stampsSection {
   display: flex;
   flex-flow: row nowrap;
+  column-gap: .25rem;
 }

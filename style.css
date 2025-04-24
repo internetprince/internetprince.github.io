@@ -252,6 +252,10 @@ h3 {
   box-sizing: border-box;
 }
 
+#friendsSection {
+  box-sizing: border-box;
+}
+
 #bio {
   margin: 0;
 }

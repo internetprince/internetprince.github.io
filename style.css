@@ -150,6 +150,15 @@
   float: left;
   }
   
+  #stampsContainer {
+  max-width: calc(65% - 1rem);
+  min-width: calc(65% - 1rem);
+  min-height: 5rem;
+  max-height: 5rem;
+  margin: .5rem;
+  float: right;
+  }
+  
 }
 
 p {
@@ -258,4 +267,8 @@ h3 {
 
 #bio {
   margin: 0;
+}
+
+#stampsContainer {
+  box-sizing: border-box;
 }

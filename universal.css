@@ -39,3 +39,9 @@ h3 {
   width: 88px;
   height: 31px;
 }
+
+.stampStyle {
+  box-sizing: border-box;
+  width: 99px;
+  height: 56px;
+}

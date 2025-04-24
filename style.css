@@ -271,4 +271,9 @@ h3 {
 
 #stampsContainer {
   box-sizing: border-box;
+  overflow: clip;
+}
+
+#stampsSection {
+  display: flex;
 }

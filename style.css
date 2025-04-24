@@ -150,6 +150,15 @@
   float: left;
   }
   
+  #stampsContainer {
+  max-width: calc(65% - 1rem);
+  min-width: calc(65% - 1rem);
+  min-height: 5rem;
+  max-height: 5rem;
+  margin: .5rem;
+  float: right;
+  }
+  
 }
 
 p {
@@ -252,6 +261,27 @@ h3 {
   box-sizing: border-box;
 }
 
+#friendsSection {
+  box-sizing: border-box;
+}
+
 #bio {
   margin: 0;
+}
+
+#stampsContainer {
+  box-sizing: border-box;
+}
+
+#stampsContainer marquee {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1px;
+  width: 96%;
+  height: 101px;
+}
+
+#stampsSection {
+  display: flex;
+  flex-flow: row nowrap;
 }

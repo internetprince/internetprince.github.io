@@ -54,7 +54,7 @@
     max-width: 100%;
     grid-template-areas:
     "interact interact"
-    ". bookmark";
+    "cafe bookmark";
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     column-gap: .5rem;
@@ -172,6 +172,8 @@ h3 {
 }
 
 #statuscafe {
+  box-sizing: border-box;
+  grid-area: cafe;
   padding: .5em;
   background-color: #C6D0D6;
   border: 1px solid #7E8D96;

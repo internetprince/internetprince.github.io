@@ -171,6 +171,20 @@ h3 {
   text-align: center;
 }
 
+#statuscafe {
+  padding: .5em;
+  background-color: #C6D0D6;
+  border: 1px solid #7E8D96;
+}
+
+#statuscafe-username {
+  margin-bottom: .5em;
+}
+
+#statuscafe-content {
+  margin: 0 1em 0.5em 1em;
+}
+
 #footerContainer {
   box-sizing: border-box;
   max-width: 90vw;

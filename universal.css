@@ -33,3 +33,9 @@ h3 {
   border-width: 8px;
   padding: 8px;
 }
+
+.buttonStyle {
+  box-sizing: border-box;
+  width: 88px;
+  height: 31px;
+}

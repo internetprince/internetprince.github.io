@@ -276,4 +276,5 @@ h3 {
 
 #stampsSection {
   display: flex;
+  flex-flow: row nowrap;
 }

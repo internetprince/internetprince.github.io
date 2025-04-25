@@ -27,7 +27,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  max-height: 100px;
+  max-height: 20rem;
   overflow: scroll;
   }
 
@@ -60,7 +60,7 @@
   }
   
   #buttons {
-    max-height: 30vh;
+    max-height: 20rem;
     overflow: scroll;
   }
 

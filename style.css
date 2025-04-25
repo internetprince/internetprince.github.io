@@ -159,6 +159,15 @@
   float: right;
   }
   
+  #picContainer {
+  max-width: calc(65% - 1rem);
+  min-width: calc(65% - 1rem);
+  min-height: 10em;
+  max-height: 10em;
+  margin: .5rem;
+  float: right;
+  }
+  
 }
 
 p {
@@ -286,4 +295,8 @@ h3 {
   display: flex;
   flex-flow: row nowrap;
   column-gap: .5rem;
+}
+
+#picContainer {
+  box-sizing: border-box;
 }

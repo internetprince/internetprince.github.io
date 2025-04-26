@@ -52,8 +52,9 @@
     max-width: 100%;
     grid-template-areas:
     "interact interact"
-    "status bookmark";
-    grid-template-rows: 1fr 1fr;
+    "status bookmark"
+    "foot foot";
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     column-gap: .5rem;
     row-gap: .25rem;
@@ -200,6 +201,7 @@ h3 {
 
 #footerContainer {
   box-sizing: border-box;
-  max-width: 90vw;
-  width: 90vw;
+  max-width: 100%;
+  width: 100%;
+  grid-area: foot;
 }

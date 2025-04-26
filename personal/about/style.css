@@ -120,12 +120,6 @@ h3 {
   text-align: center;
 }
 
-.selfSection {
-  box-sizing: border-box;
-  overflow: auto;
-  max-height: 7em;
-}
-
 #introContainer { 
   box-sizing: border-box;
   color: #485158;
@@ -135,6 +129,12 @@ h3 {
   align-items: center;
   text-align: center;
   overflow-y: scroll;
+}
+
+.introSection {
+  box-sizing: border-box;
+  overflow: auto;
+  max-height: 7em;
 }
 
 #statusContainer { 

@@ -170,6 +170,7 @@ h3 {
 }
 
 #mood {
+  box-sizing: border-box;
   margin: 0;
 }
 

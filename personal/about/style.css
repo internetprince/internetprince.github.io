@@ -52,7 +52,7 @@
     max-width: 100%;
     grid-template-areas:
     "interact interact"
-    "cafe bookmark";
+    "status bookmark";
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     column-gap: .5rem;

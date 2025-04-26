@@ -184,6 +184,12 @@ h3 {
   margin: 0 1em 0.5em 1em;
 }
 
+#linkSection {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+
 #footerContainer {
   box-sizing: border-box;
   max-width: 90vw;

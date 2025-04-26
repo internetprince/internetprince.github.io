@@ -169,6 +169,10 @@ h3 {
   text-align: center;
 }
 
+#mood {
+  margin: 0;
+}
+
 #statuscafe {
   box-sizing: border-box;
   max-width: 100%;

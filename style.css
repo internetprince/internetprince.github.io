@@ -168,6 +168,13 @@
   float: right;
   }
   
+  #globe {
+    max-width: calc(35% - 1rem);
+    min-width: calc(35% - 1rem);
+    margin: .5rem;
+    float: left;
+  }
+  
 }
 
 p {
@@ -295,6 +302,12 @@ h3 {
   display: flex;
   flex-flow: row nowrap;
   column-gap: .5rem;
+}
+
+#globe {
+  box-sizing: border-box;
+  aspect-ratio: 1/1;
+  display: block;
 }
 
 #picContainer {

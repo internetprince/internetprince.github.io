@@ -331,7 +331,7 @@ h3 {
 
 #globe {
   box-sizing: border-box;
-  aspect-ratio: 1/1;
+  aspect-ratio: auto;
   display: block;
 }
 

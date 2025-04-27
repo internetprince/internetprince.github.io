@@ -26,7 +26,7 @@ h3 {
 
 .cloudContainer
 { box-sizing: border-box;
-  border-style: solid;
+  border: 1px solid #F2F2F3;
   border-image-slice: 18 fill;
   border-image-width: 15px;
   border-image-repeat: round;

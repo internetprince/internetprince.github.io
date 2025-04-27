@@ -15,9 +15,11 @@
   #extracontent {
     max-width: 100%;
     grid-template-areas:
-    "interact";
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    "interact interact"
+    "status bookmark"
+    "foot foot";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: .5rem;
     row-gap: .5rem;
   }
@@ -57,7 +59,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     column-gap: .5rem;
-    row-gap: .25rem;
+    row-gap: .5rem;
   }
   
   #buttons {
@@ -119,6 +121,7 @@ h3 {
 #info {
   box-sizing: border-box;
   text-align: center;
+  margin: 0;
 }
 
 #introContainer { 
@@ -198,6 +201,7 @@ h3 {
   justify-content: space-evenly;
   width: 100%;
   max-width: 100%;
+  font-family: "Tecnica 55", monospace;
 }
 
 #footerContainer {

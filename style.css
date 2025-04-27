@@ -2,34 +2,34 @@
   .mainContainer {
   }
   
-  
   #profileImage {
+    width: 5em;
   }
   
   #personalContainer, #navigationContainer {
-    max-width: calc(40% - 1rem);
-    min-width: calc(40% - 1rem);
+    max-width: calc(45% - 1rem);
+    min-width: calc(45% - 1rem);
     margin: .5rem;
     float: left;
     overflow: auto;
   }
   
   #personalContainer {
-    max-height: 20vh;
-    min-height: 20vh;
+    max-height: 25vh;
+    min-height: 25vh;
   }
   
   #navigationContainer {
-    max-height: 10vh;
-    min-height: 10vh;
+    max-height: 15vh;
+    min-height: 15vh;
     overflow: auto;
   }
   
   #welcomeContainer {
-    max-width: calc(60% - 1rem);
-    min-width: calc(60% - 1rem);
-    max-height: calc(30vh + 1rem);
-    min-height: calc(30vh + 1rem);
+    max-width: calc(55% - 1rem);
+    min-width: calc(55% - 1rem);
+    max-height: calc(40vh + 1rem);
+    min-height: calc(40vh + 1rem);
     margin: .5rem;
     float: right;
     overflow: auto;
@@ -46,8 +46,8 @@
   }
   
   #chatContainer {
-  max-width: calc(50% - 1rem);
-  min-width: calc(50% - 1rem);
+  max-width: calc(70% - 1rem);
+  min-width: calc(70% - 1rem);
   min-height: 15rem;
   max-height: 15rem;
   margin: .5rem;
@@ -55,8 +55,8 @@
   }
   
   #historyContainer {
-  max-width: calc(50% - 1rem);
-  min-width: calc(50% - 1rem);
+  max-width: calc(30% - 1rem);
+  min-width: calc(30% - 1rem);
   min-height: 15rem;
   max-height: 15rem;
   margin: .5rem;
@@ -70,6 +70,31 @@
   max-height: 10rem;
   margin: .5rem;
   float: left;
+  }
+  
+  #stampsContainer {
+  max-width: calc(65% - 1rem);
+  min-width: calc(65% - 1rem);
+  min-height: 8rem;
+  max-height: 8rem;
+  margin: .5rem;
+  float: right;
+  }
+  
+  #picContainer {
+  max-width: calc(65% - 1rem);
+  min-width: calc(65% - 1rem);
+  min-height: 10em;
+  max-height: 10em;
+  margin: .5rem;
+  float: right;
+  }
+  
+  #globe {
+    max-width: calc(35% - 1rem);
+    min-width: calc(35% - 1rem);
+    margin: .5rem;
+    float: left;
   }
 
 }
@@ -306,7 +331,8 @@ h3 {
 
 #globe {
   box-sizing: border-box;
-  aspect-ratio: 1/1;
+  aspect-ratio: auto;
+  height: auto;
   display: block;
 }
 

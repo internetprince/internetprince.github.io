@@ -198,6 +198,7 @@ h3 {
   justify-content: space-evenly;
   width: 100%;
   max-width: 100%;
+  font-family: "Tecnica 55", monospace;
 }
 
 #footerContainer {

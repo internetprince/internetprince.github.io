@@ -52,8 +52,9 @@
     max-width: 100%;
     grid-template-areas:
     "interact interact"
-    "cafe bookmark";
-    grid-template-rows: 1fr 1fr;
+    "status bookmark"
+    "foot foot";
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     column-gap: .5rem;
     row-gap: .25rem;
@@ -120,10 +121,6 @@ h3 {
   text-align: center;
 }
 
-#interests {
-  
-}
-
 #introContainer { 
   box-sizing: border-box;
   color: #485158;
@@ -133,6 +130,12 @@ h3 {
   align-items: center;
   text-align: center;
   overflow-y: scroll;
+}
+
+.introSection {
+  box-sizing: border-box;
+  overflow: auto;
+  max-height: 7em;
 }
 
 #statusContainer { 
@@ -169,10 +172,15 @@ h3 {
   text-align: center;
 }
 
+#mood {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 #statuscafe {
   box-sizing: border-box;
-  grid-area: cafe;
-  padding: .5em;
+  max-width: 100%;
+  margin: 20px;
   background-color: #C6D0D6;
   border: 1px solid #7E8D96;
 }
@@ -185,8 +193,15 @@ h3 {
   margin: 0 1em 0.5em 1em;
 }
 
+#linkSection {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+
 #footerContainer {
   box-sizing: border-box;
-  max-width: 90vw;
-  width: 90vw;
+  max-width: 100%;
+  width: 100%;
+  grid-area: foot;
 }

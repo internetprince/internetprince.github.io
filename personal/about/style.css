@@ -210,3 +210,11 @@ h3 {
   width: 100%;
   grid-area: foot;
 }
+
+#footerSection {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 100%;
+  font-family: "Tecnica 55", monospace;
+}

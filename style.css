@@ -297,6 +297,13 @@ h3 {
   box-sizing: border-box;
 }
 
+.siteHistorySection {
+}
+
+.siteHistoryEntry {
+  
+}
+
 #friendsContainer {
   box-sizing: border-box;
 }
@@ -340,5 +347,9 @@ h3 {
 }
 
 #guestContainer {
+  box-sizing: border-box;
+}
+
+#welcomeImage {
   box-sizing: border-box;
 }

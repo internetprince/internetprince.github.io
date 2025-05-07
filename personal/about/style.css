@@ -196,7 +196,7 @@ h3 {
   margin: 0 1em 0.5em 1em;
 }
 
-#linkSection {
+.linksSection {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -209,12 +209,4 @@ h3 {
   max-width: 100%;
   width: 100%;
   grid-area: foot;
-}
-
-#footerSection {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  max-width: 100%;
-  font-family: "Tecnica 55", monospace;
 }

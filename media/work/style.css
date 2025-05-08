@@ -38,7 +38,7 @@ h3 {
   background-color: transparent;
 }
 
-.codeContainer {
+.codeSection {
   box-sizing: border-box;
   overflow: auto;
   max-width: 80%;

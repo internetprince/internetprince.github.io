@@ -298,10 +298,15 @@ h3 {
 }
 
 .siteHistorySection {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: auto;
 }
 
 .siteHistoryEntry {
-  
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 #friendsContainer {

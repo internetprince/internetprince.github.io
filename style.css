@@ -1,11 +1,93 @@
 @media (orientation: landscape) {
   .mainContainer {
-    display: grid;
-    grid-template:;
   }
   
   #profileImage {
     width: 5em;
+  }
+  
+  #personalContainer, #navigationContainer {
+    max-width: calc(45% - 1rem);
+    min-width: calc(45% - 1rem);
+    margin: .5rem;
+    float: left;
+    overflow: auto;
+  }
+  
+  #personalContainer {
+    max-height: 25vh;
+    min-height: 25vh;
+  }
+  
+  #navigationContainer {
+    max-height: 15vh;
+    min-height: 15vh;
+    overflow: auto;
+  }
+  
+  #welcomeContainer {
+    max-width: calc(55% - 1rem);
+    min-width: calc(55% - 1rem);
+    max-height: calc(40vh + 1rem);
+    min-height: calc(40vh + 1rem);
+    margin: .5rem;
+    float: right;
+    overflow: auto;
+  }
+  
+  #hostContainer {
+    max-width: calc(100% - 2rem);
+    min-width: calc(100% - 2rem);
+    max-height: 6em;
+    min-height: 6em;
+    margin: .5rem 1rem;
+    float: left;
+    clear: both;
+  }
+  
+  #chatContainer {
+  max-width: calc(70% - 1rem);
+  min-width: calc(70% - 1rem);
+  min-height: 15rem;
+  max-height: 15rem;
+  margin: .5rem;
+  float: left;
+  }
+  
+  #historyContainer {
+  max-width: calc(30% - 1rem);
+  min-width: calc(30% - 1rem);
+  min-height: 15rem;
+  max-height: 15rem;
+  margin: .5rem;
+  float: right;
+  }
+  
+  #friendsContainer {
+  max-width: calc(35% - 1rem);
+  min-width: calc(35% - 1rem);
+  min-height: 10rem;
+  max-height: 10rem;
+  margin: .5rem;
+  float: left;
+  }
+  
+  #stampsContainer {
+  max-width: calc(65% - 1rem);
+  min-width: calc(65% - 1rem);
+  min-height: 8rem;
+  max-height: 8rem;
+  margin: .5rem;
+  float: right;
+  }
+  
+  #picContainer {
+  max-width: calc(65% - 1rem);
+  min-width: calc(65% - 1rem);
+  min-height: 10em;
+  max-height: 10em;
+  margin: .5rem;
+  float: right;
   }
   
   #globe {
@@ -21,16 +103,94 @@
 
 @media (orientation: portrait) {
   .mainContainer {
-    display: grid;
-    grid-template:
-    "nav banner banner" 10%
-    "nav welcome welcome" 20%
-    "nav history self" 20%
-    "nav chat self" 20%;
   }
   
   #profileImage {
     width: 75%;
+  }
+  
+  #personalContainer, #navigationContainer {
+    max-width: calc(45% - 1rem);
+    min-width: calc(45% - 1rem);
+    margin: .5rem;
+    float: left;
+    overflow: auto;
+  }
+  
+  #personalContainer {
+    max-height: 25vh;
+    min-height: 25vh;
+  }
+  
+  #navigationContainer {
+    max-height: 15vh;
+    min-height: 15vh;
+    overflow: auto;
+  }
+  
+  #welcomeContainer {
+    max-width: calc(55% - 1rem);
+    min-width: calc(55% - 1rem);
+    max-height: calc(40vh + 1rem);
+    min-height: calc(40vh + 1rem);
+    margin: .5rem;
+    float: right;
+    overflow: auto;
+  }
+  
+  #hostContainer {
+    max-width: calc(100% - 2rem);
+    min-width: calc(100% - 2rem);
+    max-height: 6em;
+    min-height: 6em;
+    margin: .5rem 1rem;
+    float: left;
+    clear: both;
+  }
+  
+  #chatContainer {
+  max-width: calc(70% - 1rem);
+  min-width: calc(70% - 1rem);
+  min-height: 15rem;
+  max-height: 15rem;
+  margin: .5rem;
+  float: left;
+  }
+  
+  #historyContainer {
+  max-width: calc(30% - 1rem);
+  min-width: calc(30% - 1rem);
+  min-height: 15rem;
+  max-height: 15rem;
+  margin: .5rem;
+  float: right;
+  }
+  
+  #friendsContainer {
+  max-width: calc(35% - 1rem);
+  min-width: calc(35% - 1rem);
+  min-height: 10rem;
+  max-height: 10rem;
+  margin: .5rem;
+  float: left;
+  }
+  
+  #stampsContainer {
+  max-width: calc(65% - 1rem);
+  min-width: calc(65% - 1rem);
+  min-height: 8rem;
+  max-height: 8rem;
+  margin: .5rem;
+  float: right;
+  }
+  
+  #picContainer {
+  max-width: calc(65% - 1rem);
+  min-width: calc(65% - 1rem);
+  min-height: 10em;
+  max-height: 10em;
+  margin: .5rem;
+  float: right;
   }
   
   #globe {
@@ -71,14 +231,9 @@ h3 {
 #personalContainer { 
   box-sizing: border-box;
   text-align: center;
-  grid-area: self;
 }
 
-#bannerContainer {
-  box-sizing: border-box;
-  text-align: center;
-  grid-area: banner;
-}
+
 
 #profileImage { 
   aspect-ratio: 1/1;
@@ -88,7 +243,6 @@ h3 {
 #navigationContainer { 
   box-sizing: border-box;
   text-align: center;
-  grid-area: navi;
 }
 
 #navigationContainer details {
@@ -99,7 +253,6 @@ h3 {
 #hostContainer {
   box-sizing: border-box;
   align-content: center;
-  grid-area: host;
 }
 
 #hostContainer * {
@@ -117,7 +270,6 @@ h3 {
 #welcomeContainer {
   box-sizing: border-box;
   text-align: center;
-  grid-area: welcome;
 }
 
 #welcomeContainer p {
@@ -128,7 +280,6 @@ h3 {
 #chatContainer {
   box-sizing: border-box;
   position: relative;
-  grid-area: chat;
 }
 
 #cbox {
@@ -144,7 +295,6 @@ h3 {
 
 #historyContainer {
   box-sizing: border-box;
-  grid-area: history;
 }
 
 .siteHistorySection {
@@ -161,7 +311,6 @@ h3 {
 
 #friendsContainer {
   box-sizing: border-box;
-  grid-area: friends;
 }
 
 #friendsSection {

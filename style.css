@@ -109,7 +109,7 @@
     width: 75%;
   }
   
-  #personalContainer, #navigationContainer {
+  #navigationContainer {
     max-width: calc(45% - 1rem);
     min-width: calc(45% - 1rem);
     margin: .5rem;
@@ -118,8 +118,8 @@
   }
   
   #personalContainer {
-    max-height: 25vh;
-    min-height: 25vh;
+    max-width: calc(45% - 1rem);
+    min-width: calc(45% - 1rem);
   }
   
   #navigationContainer {
@@ -194,8 +194,8 @@
   }
   
   #globe {
-    max-width: calc(35% - 1rem);
-    min-width: calc(35% - 1rem);
+    max-width: 5rem;
+    max-height: 5rem;
     margin: .5rem;
     float: left;
   }
@@ -226,7 +226,9 @@ h3 {
   background-color: transparent;
 }
 
-
+#bannerContainer {
+  box-sizing: border-box;
+}
 
 #personalContainer { 
   box-sizing: border-box;

@@ -65,6 +65,7 @@ h3 {
 #personalContainer { 
   box-sizing: border-box;
   text-align: center;
+  grid-area: self;
 }
 
 
@@ -77,6 +78,7 @@ h3 {
 #navigationContainer { 
   box-sizing: border-box;
   text-align: center;
+  grid-area: navi;
 }
 
 #navigationContainer details {
@@ -87,6 +89,7 @@ h3 {
 #hostContainer {
   box-sizing: border-box;
   align-content: center;
+  grid-area: host;
 }
 
 #hostContainer * {
@@ -104,6 +107,7 @@ h3 {
 #welcomeContainer {
   box-sizing: border-box;
   text-align: center;
+  grid-area: welcome;
 }
 
 #welcomeContainer p {
@@ -114,6 +118,7 @@ h3 {
 #chatContainer {
   box-sizing: border-box;
   position: relative;
+  grid-area: chat;
 }
 
 #cbox {
@@ -129,6 +134,7 @@ h3 {
 
 #historyContainer {
   box-sizing: border-box;
+  grid-area: history;
 }
 
 .siteHistorySection {
@@ -145,6 +151,7 @@ h3 {
 
 #friendsContainer {
   box-sizing: border-box;
+  grid-area: friends;
 }
 
 #friendsSection {

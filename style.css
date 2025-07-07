@@ -23,10 +23,10 @@
   .mainContainer {
     display: grid;
     grid-template:
-    "nav banner banner"
-    "nav welcome welcome"
-    "nav history self"
-    "nav chat self";
+    "nav banner banner" 10%
+    "nav welcome welcome" 20%
+    "nav history self" 20%
+    "nav chat self" 20%;
   }
   
   #profileImage {

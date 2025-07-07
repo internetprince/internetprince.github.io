@@ -117,25 +117,35 @@
     overflow: auto;
   }
   
-  #personalContainer {
-    max-width: calc(45% - 1rem);
-    min-width: calc(45% - 1rem);
-  }
-  
-  #navigationContainer {
-    max-height: 15vh;
-    min-height: 15vh;
-    overflow: auto;
-  }
-  
   #welcomeContainer {
     max-width: calc(55% - 1rem);
     min-width: calc(55% - 1rem);
-    max-height: calc(40vh + 1rem);
-    min-height: calc(40vh + 1rem);
     margin: .5rem;
     float: right;
     overflow: auto;
+  }
+  
+   #globe {
+    max-width: 5rem;
+    max-height: 5rem;
+    margin: .5rem;
+    float: left;
+  }
+  
+  #personalContainer {
+    max-width: calc(35% - 1rem);
+    min-width: calc(35% - 1rem);
+    margin: .5rem;
+    float: right;
+  }
+  
+  #chatContainer {
+    max-width: calc(35% - 1rem);
+    min-width: calc(35% - 1rem);
+    min-height: 15rem;
+    max-height: 15rem;
+    margin: .5rem;
+    float: right;
   }
   
   #hostContainer {
@@ -143,61 +153,45 @@
     min-width: calc(100% - 2rem);
     max-height: 6em;
     min-height: 6em;
-    margin: .5rem 1rem;
+    margin: .5rem;
     float: left;
     clear: both;
   }
   
-  #chatContainer {
-  max-width: calc(70% - 1rem);
-  min-width: calc(70% - 1rem);
-  min-height: 15rem;
-  max-height: 15rem;
-  margin: .5rem;
-  float: left;
-  }
-  
   #historyContainer {
-  max-width: calc(30% - 1rem);
-  min-width: calc(30% - 1rem);
-  min-height: 15rem;
-  max-height: 15rem;
-  margin: .5rem;
-  float: right;
+    max-width: calc(30% - 1rem);
+    min-width: calc(30% - 1rem);
+    min-height: 15rem;
+    max-height: 15rem;
+    margin: .5rem;
+    float: left;
   }
   
   #friendsContainer {
-  max-width: calc(35% - 1rem);
-  min-width: calc(35% - 1rem);
-  min-height: 10rem;
-  max-height: 10rem;
-  margin: .5rem;
-  float: left;
+    max-width: calc(35% - 1rem);
+    min-width: calc(35% - 1rem);
+    min-height: 10rem;
+    max-height: 10rem;
+    margin: .5rem;
+    float: left;
   }
   
   #stampsContainer {
-  max-width: calc(65% - 1rem);
-  min-width: calc(65% - 1rem);
-  min-height: 8rem;
-  max-height: 8rem;
-  margin: .5rem;
-  float: right;
+    max-width: calc(65% - 1rem);
+    min-width: calc(65% - 1rem);
+    min-height: 8rem;
+    max-height: 8rem;
+    margin: .5rem;
+    float: right;
   }
   
   #picContainer {
-  max-width: calc(65% - 1rem);
-  min-width: calc(65% - 1rem);
-  min-height: 10em;
-  max-height: 10em;
-  margin: .5rem;
-  float: right;
-  }
-  
-  #globe {
-    max-width: 5rem;
-    max-height: 5rem;
+    max-width: calc(65% - 1rem);
+    min-width: calc(65% - 1rem);
+    min-height: 10em;
+    max-height: 10em;
     margin: .5rem;
-    float: left;
+    float: right;
   }
   
 }

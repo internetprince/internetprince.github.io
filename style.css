@@ -1,6 +1,7 @@
 @media (orientation: landscape) {
   .mainContainer {
     display: grid;
+    grid-template:;
   }
   
   #profileImage {
@@ -21,6 +22,11 @@
 @media (orientation: portrait) {
   .mainContainer {
     display: grid;
+    grid-template:
+    "nav banner banner"
+    "nav welcome welcome"
+    "nav history self"
+    "nav chat self";
   }
   
   #profileImage {
@@ -68,7 +74,11 @@ h3 {
   grid-area: self;
 }
 
-
+#bannerContainer {
+  box-sizing: border-box;
+  text-align: center;
+  grid-area: banner;
+}
 
 #profileImage { 
   aspect-ratio: 1/1;

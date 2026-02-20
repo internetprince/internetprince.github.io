@@ -1,48 +1,40 @@
-html { 
-  background-color: #89CFF0;
-  color: #485158;
-  font-size: 1em;
-  font-family: "F1.8", monospace;
+html {
+    background-color: rgb(21, 21, 22);
+    font-size: 1em;
+    font-family: "F1.8", monospace;
 }
 
-body { 
-  font-size: 1em;
-  font-family: "F1.8", monospace;
-  margin: 0;
+body {
+    font-size: 1em;
+    background-color: transparent;
+    font-family: "F1.8", monospace;
+    margin: 0;
 }
 
 h2 {
-  font-family: "Syntha Nova", sans-serif;
-  margin: 0;
-  font-size: 1.1rem;
+    font-family: "Syntha Nova", sans-serif;
+    margin: 0;
+    font-size: 1.1rem;
 }
 
 h3 {
-  font-family: "Syntha Nova", sans-serif;
-  margin: 0;
-  font-size: .9rem;
+    font-family: "Syntha Nova", sans-serif;
+    margin: 0;
+    font-size: .9rem;
 }
 
-
-.cloudContainer
-{ box-sizing: border-box;
-  border: 2px solid #F2F2F3;
-  border-image-slice: 18 fill;
-  border-image-width: 15px;
-  border-image-repeat: round;
-  border-image-source: url("https://files.strawcdn.com/straw/KPmeCZfeBWcbnjBEXDSv.png");
-  border-width: 15px;
-  padding: 8px;
+.baseContainer {
+    box-sizing: border-box;
 }
 
 .buttonStyle {
-  box-sizing: border-box;
-  width: 88px;
-  height: 31px;
+    box-sizing: border-box;
+    width: 88px;
+    height: 31px;
 }
 
 .stampStyle {
-  box-sizing: border-box;
-  width: 99px;
-  height: 56px;
+    box-sizing: border-box;
+    width: 99px;
+    height: 56px;
 }

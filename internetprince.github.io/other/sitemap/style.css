@@ -1,0 +1,39 @@
+@media (orientation: landscape) {
+  .mainContainer {
+  }
+  
+
+}
+ 
+
+
+@media (orientation: portrait) {
+  .mainContainer {
+  }
+  
+}
+
+p {
+  font-family: "F1.8", sans-serif;
+  font-size: medium;
+  overflow: auto;
+}
+
+h2 {
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.mainContainer { 
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  background-color: transparent;
+}
